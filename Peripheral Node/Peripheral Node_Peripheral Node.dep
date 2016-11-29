@@ -1,0 +1,21 @@
+Dependencies for Project 'Peripheral Node', Target 'Peripheral Node': (DO NOT MODIFY !)
+F (.\startup.s)(0x519AD0D4)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x52323190)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x52323190)
+F (.\UART.c)(0x577AD185)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x577A6F2D)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+F (.\BTLE Functions.c)(0x57DB70DB)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o ".\btle functions.o" --omf_browse ".\btle functions.crf" --depend ".\btle functions.d")
+I (UART.h)(0x577A6F2D)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+F (.\DC Motors.c)(0x57D173FB)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o ".\dc motors.o" --omf_browse ".\dc motors.crf" --depend ".\dc motors.d")
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+F (.\Peripheral Node.c)(0x57E037D8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o ".\peripheral node.o" --omf_browse ".\peripheral node.crf" --depend ".\peripheral node.d")
+I (PLL.h)(0x52323190)
+I (UART.h)(0x577A6F2D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+I (BTLE Functions.h)(0x57DB7056)
+I (DC Motors.h)(0x57D0557A)
