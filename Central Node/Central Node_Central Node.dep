@@ -1,0 +1,21 @@
+Dependencies for Project 'Central Node', Target 'Central Node': (DO NOT MODIFY !)
+F (.\startup.s)(0x519AD0D4)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x52323190)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x52323190)
+F (.\UART.c)(0x577AD185)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x577A6F2D)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+F (.\BTLE Functions.c)(0x57DB73B8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o ".\btle functions.o" --omf_browse ".\btle functions.crf" --depend ".\btle functions.d")
+I (UART.h)(0x577A6F2D)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+F (.\Central Node.c)(0x57DF56D5)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o ".\central node.o" --omf_browse ".\central node.crf" --depend ".\central node.d")
+I (PLL.h)(0x52323190)
+I (UART.h)(0x577A6F2D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (..\..\..\Projects\tm4c123gh6pm.h)(0x51D4A8F2)
+I (BTLE Functions.h)(0x57DB73B8)
+I (ADC.h)(0x57C20C49)
+F (.\ADC.c)(0x57C20C6E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I..\..\..\Projects-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (ADC.h)(0x57C20C49)
+I (..\..//tm4c123gh6pm.h)(0x51D4A8F2)
