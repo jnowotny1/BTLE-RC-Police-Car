@@ -1,0 +1,9 @@
+			MCU
+PB0 - RX		In
+PB1 - TX		OUt
+PB2 - CMD		Out
+PB5 - Connect Active	In
+PA5 - Wake		Out
+
+
+Firmware version 1.10
